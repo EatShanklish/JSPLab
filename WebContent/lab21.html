@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Enrollment Form</title>
+
+<script src="Lab21.JS"></script>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+        
+</head>
+
+<body background="http://www.farmaqua.com/backoffice/GL/picture/blur-background12.jpg">
+
+<img src ="https://d3c5s1hmka2e2b.cloudfront.net/uploads/topic/image/115/grand_circus.png">
+
+
+	<form name="form1" action="lab21.jsp" method="post">
+	
+		    First Name: <input name="fname" id="fname" type="text" required>
+		    <br>
+		    
+		    Last Name: <input name="lname" id="lname" type="text" required>
+		    <br>
+		    
+		    Number:  <input name="number" id="number" type="text" required>
+		    <br>
+		    
+		    Address:  <input name="address" id="address" type="text" required>
+		    <br>
+		    
+		    Email:  <input name="email" id="email" type="email" required>
+		    <br>
+		    
+		    <h3>Pick a bootcamp:</h3>
+		    
+		    Java Bootcamp <input name="bootcamp" value="Java Bootcamp" type="radio">
+		    <br>
+		    FrontEnd Bootcamp <input name="bootcamp" value="Front End Bootcamp" type="radio">
+		    <br>
+		    .Net Bootcamp <input name="bootcamp" value=".Net Bootcamp" type="radio">
+		    
+		    
+		    <br>
+		    
+		    <button type="submit" onclick="checkForm()" >Submit!</button> 
+		    <button type="RESET" id= "resetbutton" value="Reset">CLEAR</button>
+	    
+	</form>
+
+
+
+</body>
+</html>

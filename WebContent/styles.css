@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+form
+{
+	margin: 0 auto; 
+    width:250px;
+    margin-top: 10px;
+	
+}
+
+body
+{
+	background-color: lightblue;
+}
+
+img
+{
+	 
+    width:250px;
+    margin-left: 450px;
+}
